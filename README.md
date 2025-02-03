@@ -25,19 +25,19 @@ cd multilingual_faq
 ```
 
 
-2️⃣ Create & Activate a Virtual Environment
+### **2️⃣ Create & Activate a Virtual Environment**
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # For Mac/Linux
 venv\Scripts\activate     # For Windows
 ```
 
-3️⃣ Install Dependencies
+### **3️⃣ Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-4️⃣ Apply Migrations & Run the Server
+### **4️⃣ Apply Migrations & Run the Server**
 ```bash
 python manage.py makemigrations
 python manage.py migrate
@@ -49,7 +49,7 @@ http://127.0.0.1:8000/
 
 ---
 
-⚙️ Project Structure
+## ⚙️ Project Structure
 ```csharp
 Copy
 Edit
@@ -74,13 +74,13 @@ multilingual_faq/
 ---
 
 
-Technologies Used
-Django - Backend Framework
-Django REST Framework (DRF) - API Development
-Google Translate API - Automatic Language Translation
-django-ckeditor - WYSIWYG Editor for Admin Panel
-Redis - Caching for faster responses
-pytest - Unit Testing
+### 🛠 Technologies Used
+- **Django** - Backend Framework
+- **Django REST Framework (DRF)** - API Development
+- **Google Translate API** - Automatic Language Translation
+- **django-ckeditor** - WYSIWYG Editor for Admin Panel
+- **Redis** - Caching for faster responses
+- **pytest** - Unit Testing
 
 ---
 
