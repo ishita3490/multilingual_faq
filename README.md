@@ -22,6 +22,7 @@ First, clone this repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/multilingual_faq.git
 cd multilingual_faq
+```
 
 
 2️⃣ Create & Activate a Virtual Environment
@@ -29,21 +30,27 @@ cd multilingual_faq
 python3 -m venv venv
 source venv/bin/activate  # For Mac/Linux
 venv\Scripts\activate     # For Windows
+```
 
 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 4️⃣ Apply Migrations & Run the Server
+```bash
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+```
 
 Once the server starts, open your browser and go to:
 http://127.0.0.1:8000/
 
+---
 
 ⚙️ Project Structure
-csharp
+```csharp
 Copy
 Edit
 multilingual_faq/
@@ -62,6 +69,9 @@ multilingual_faq/
 │── manage.py                # Django Management Script
 │── requirements.txt         # Required Python Libraries
 │── README.md                # Project Documentation (this file)
+```
+
+---
 
 
 Technologies Used
@@ -72,7 +82,7 @@ django-ckeditor - WYSIWYG Editor for Admin Panel
 Redis - Caching for faster responses
 pytest - Unit Testing
 
-
+---
 
 ✨ Author
 👤 Ishita Bansal
