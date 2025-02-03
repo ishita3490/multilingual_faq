@@ -15,29 +15,37 @@ A **Django-based REST API** for managing FAQs with **multi-language translation 
 
 ---
 
-## 🛠️ Installation Guide
 
-### **1️⃣ Clone the Repository**
+🛠️ Installation Guide
+1️⃣ Clone the Repository
 First, clone this repository to your local machine:
-```bash
+
+bash
+Copy
+Edit
 git clone https://github.com/yourusername/multilingual_faq.git
 cd multilingual_faq
-
-### **2️⃣ Create & Activate a Virtual Environment**
+2️⃣ Create & Activate a Virtual Environment
+bash
+Copy
+Edit
 python3 -m venv venv
 source venv/bin/activate  # For Mac/Linux
 venv\Scripts\activate     # For Windows
-
 3️⃣ Install Dependencies
+bash
+Copy
+Edit
 pip install -r requirements.txt
-
 4️⃣ Apply Migrations & Run the Server
+bash
+Copy
+Edit
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
-
 Once the server starts, open your browser and go to:
-http://127.0.0.1:8000/
+➡️ http://127.0.0.1:8000/
 
 
 ⚙️ Project Structure
