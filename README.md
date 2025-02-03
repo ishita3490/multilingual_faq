@@ -23,7 +23,7 @@ First, clone this repository to your local machine:
 git clone https://github.com/yourusername/multilingual_faq.git
 cd multilingual_faq
 
-2️⃣ Create & Activate a Virtual Environment
+### **2️⃣ Create & Activate a Virtual Environment**
 python3 -m venv venv
 source venv/bin/activate  # For Mac/Linux
 venv\Scripts\activate     # For Windows
