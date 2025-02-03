@@ -25,6 +25,7 @@ cd multilingual_faq
 
 
 2️⃣ Create & Activate a Virtual Environment
+```bash
 python3 -m venv venv
 source venv/bin/activate  # For Mac/Linux
 venv\Scripts\activate     # For Windows
